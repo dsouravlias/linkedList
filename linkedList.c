@@ -66,8 +66,8 @@ int isEmptyList (LIST l) {
 	NODE *p=l.first;
 	int result;
 	if (p==NULL) {
-			printf  ("\nEmpty List.\n");
-			return 0;
+		printf  ("\nEmpty List.\n");
+		return 0;
 	}
 	return 1;
 }
